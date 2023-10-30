@@ -1,16 +1,16 @@
 body {
-background: [Sky-Blue];
+background:[Sky-Blue];
 font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-color: [Gray];
+color:[Gray];
 text-align: center;
 }
 .assign {
 display: flex;
 padding: 10px;
 margin: 10px;
-background: [LightCyan];
+background:[LightCyan];
 }
 .assign img {
 width: 200px;
