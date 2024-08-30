@@ -29,14 +29,15 @@ body{
     display: inline-block;     /* appear on one line"
 }
 
-
+                                   
 #main-nav a {                  /*No underlines*/
     text-decoration: none;
     background:grey;
     color: white;
-    padding:5px;
+    padding: 5px;
     margin:5px;
     border-radius:2px;
+   
 }
 
 #main-nav a:hover {

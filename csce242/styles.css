@@ -1,0 +1,35 @@
+/*Structure*/
+
+body {
+  background: lightskyblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#content {
+  background: rgb(137, 154, 162);
+}
+
+/*Navigation*/
+
+a {
+  text-decoration: none;
+  color: rgb(95, 93, 205);
+}
+
+/*Typography */
+
+h1 {
+  color: rgb(63, 20, 216);
+}
+
+h2 {
+  color: rgb(143, 15, 197);
+}
+
+h3 {
+  color: rgb(13, 13, 91);
+}
+p {
+  color: rgb(16, 0, 0);
+}
