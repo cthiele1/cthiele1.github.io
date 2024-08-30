@@ -57,5 +57,9 @@ td {
 
 /*Typography */
 #bold {
+  /*Id*/
   font-size: 60px;
+} /* Class*/
+.text {
+  background-color: rgb(240, 240, 205);
 }
