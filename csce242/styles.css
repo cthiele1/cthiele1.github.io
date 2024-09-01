@@ -1,35 +1,106 @@
-/*Structure*/
-
 body {
-  background: lightskyblue;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-#content {
-  background: rgb(137, 154, 162);
+#main-header h1,
+h2 {
+  text-align: center;
 }
 
-/*Navigation*/
+/* Structure */
+body {
+  background-color: #1a9ac4;
+}
+
+.column {
+  background: #ccd3e3;
+  margin: 15px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.column img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Navigation */
+
+#main-nav li {
+  padding: 10px 0px;
+  border-bottom: 4px solid transparent;
+}
+#main-nav ul {
+  list-style-type: none;
+
+  text-align: center;
+}
+
+#nav-items {
+  padding: 0;
+}
 
 a {
   text-decoration: none;
-  color: rgb(95, 93, 205);
+  color: #6013cd;
 }
 
-/*Typography */
-
-h1 {
-  color: rgb(63, 20, 216);
+/* Typography */
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h2 {
-  color: rgb(143, 15, 197);
+.column h3,
+.column p {
+  text-align: center;
 }
 
-h3 {
-  color: rgb(13, 13, 91);
+.column h3 {
+  font-size: 1.5em;
 }
-p {
-  color: rgb(16, 0, 0);
+
+.column p {
+  font-size: 1.1em;
+}
+
+#main-header h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#assignment-label {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#main-nav li {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* Larger Resolutions */
+@media only screen and (min-width: 600px) {
+  #main-nav li {
+    flex: 1;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #main-header h2 {
+    position: relative;
+    bottom: 90px;
+  }
+
+  .column {
+    flex: 30%;
+    flex-grow: 0;
+  }
 }
