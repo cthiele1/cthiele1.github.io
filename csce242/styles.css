@@ -19,12 +19,6 @@ body {
   display: flex;
 }
 
-.column img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* Navigation */
 
 a {
@@ -35,11 +29,6 @@ a {
 /* Typography */
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.column h3,
-.column p {
-  text-align: center;
 }
 
 /* Larger Resolutions */

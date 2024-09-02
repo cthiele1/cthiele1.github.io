@@ -1,0 +1,114 @@
+h1,
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: left;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#leaves section {
+  background: lightgreen;
+  padding: 9px;
+  margin: 9px;
+}
+
+#main-aside {
+  background: rgb(41, 146, 74);
+
+  float: right; /* Move to the right */
+  width: 200px;
+
+  padding: 15px;
+}
+
+#first section {
+  background: lightcyan;
+}
+
+#second section {
+  background: lightcyan;
+}
+
+#first {
+  display: flex;
+}
+#second {
+  display: flex;
+}
+#three {
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+}
+
+#main-header {
+  background-color: rgb(79, 206, 113);
+  border-radius: 10px;
+}
+
+#main-footer {
+  background: rgb(59, 107, 167);
+}
+
+#bottomsection {
+  background: lightslategrey;
+}
+
+/* Navigation */
+#main-nav ul {
+  padding-left: 0;
+  float: middle;
+}
+
+#main-nav li {
+  list-style: none;
+  border-bottom: 1px solid rgb(77, 174, 20);
+}
+
+#main-nav a {
+  text-decoration: none;
+  padding: 5px;
+  background: rgb(146, 210, 82);
+  color: rgb(63, 60, 60);
+  display: flex;
+}
+
+/* Typography */
+#main-footer p {
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 600px) {
+  .columns {
+    display: flex;
+  }
+
+  .one {
+    flex: 1;
+  }
+
+  .two {
+    flex: 2;
+  }
+
+  .three {
+    flex: 3;
+  }
+
+  .four {
+    flex: 4;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
