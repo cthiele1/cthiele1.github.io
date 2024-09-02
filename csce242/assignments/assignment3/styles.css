@@ -108,6 +108,9 @@ img {
   .four {
     flex: 4;
   }
+  #main-nav li {
+    flex: 1;
+  }
 }
 
 @media only screen and (min-width: 768px) {
