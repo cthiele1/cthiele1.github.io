@@ -1,26 +1,51 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <html>
     <head>
-        <h1>CSCE 242: Web Applications </h1>
-        <h3>Connor Thiele</h3>
-        <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="styles.css"/>
     </head>
-    
-       <body>
-
-       <div id = content> 
-    
-        <p>This class is about using HTML and CSS to create a website. JavaScript will also be used to add functionality to the websites. </p>
-        <h2>Assignments</h2>
-            <ul>
-                <nav id = "main-nav">
-                    
-                <li> <a href ="assignments/assignment1/index.html"> Assignment 1</a> </li>
-                <li> <a href ="assignments/assignment2/index.html">Assignment 2 </a></li>
-            </ul>
-                </nav>
-    
-        
+    <body>
+      <header id="main-header">
+        <h1>CSCE 242: Web Applications</h1>
+        <h3>Connor Thiele</h3>
+      </header>
+      <main id="main content">
+      <div id="assignment-section">
+    <h2 id="Assignments" class = "flex container">
       <body>
-  </div>
+        <div id = "container">
+        <section class ="column">
+                <a href ="assignments/assignment1/index.html"><h3> Assignment 1 </h3>
+            <img src="images/assignment1.png" alt = "Assignment 1 picture"
+            width="300"
+              height="150"/>
+        </a>
+        <p>
+            Text about Assignment 1 
+        </p>
+        </section>
+        <section class="column">
+              <a href="assignments/assignment2/index.html"><h3>Assignment 2 </h3></a
+            
+              ><img src="images/assignment2.png" alt="Assignment 2 picture"
+              width="300"
+              height="150"/></a>
+            <p>
+              Text about assignment 2 
+            </p>
+          </section>
+          <section class="column">
+              <a href="assignments/assignment3/index.html"><h3>Assignment 3</h3></a>
+              <img src="images/assignment3.png" alt="Assignement 3 picture"/></a>
+            <p>
+              Text about assignment 3 
+            </p>
+          </section>
+        </div>
+        </body>
+      </main>
+      <footer id="main-footer">
+        <p>@cthiele</p>
+      </footer>
+  </html>
 </html>
