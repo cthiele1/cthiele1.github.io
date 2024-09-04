@@ -1,0 +1,55 @@
+/* Structure */
+
+#main-header {
+  background: black;
+}
+
+/* Navigation */
+
+/*Header Part that is Garnet */
+#bottomh-nav {
+  text-align: center;
+  padding: 2px;
+  background-color: #73000a;
+}
+#bottomh-nav {
+  padding-left: 0;
+  float: middle;
+}
+
+#bottomh-nav li {
+  list-style: none;
+}
+
+/* Header Part that is black */
+#htop-nav li {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+/* Typography */
+.bold {
+  font-weight: bold;
+  display: flex;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#toph-nav {
+  font-size: xx-small;
+}
+.h-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 2 px;
+  display: block;
+  padding-left: 5 px;
+  padding-right: 5 px;
+}
+.htop-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+}
