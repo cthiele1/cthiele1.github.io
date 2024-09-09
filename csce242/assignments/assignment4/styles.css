@@ -18,10 +18,34 @@
   color: white;
   position: relative;
 }
-
+#sub-header-text {
+  padding: 50px;
+  text-align: center;
+}
 #sub-header-box {
   margin: 0;
   background-color: #73000a;
+  padding: 5px;
+  display: inline-block;
+  text-align: left;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  width: fit-content;
+  background-color: black;
+  color: white;
+
+  padding: 5px;
+  border: 2px solid white;
+  font-size: 30px;
+}
+
+/*Position of the Graduate School*/
+#sub-header-box {
+  position: absolute;
+  left: 10%;
+  bottom: 0;
 }
 
 /*Sidebar */
@@ -64,6 +88,18 @@
 }
 .paying-for-school p {
   color: black;
+}
+
+.button2 {
+  text-decoration: none;
+  display: inline-block;
+  width: fit-content;
+  background-color: #73000a;
+  color: white;
+
+  padding: 5px;
+  border: 2px solid white;
+  font-size: 30px;
 }
 
 .img {
@@ -125,7 +161,7 @@
   width: 400px;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 /* Black Part of the footer */
