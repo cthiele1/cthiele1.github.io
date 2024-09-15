@@ -13,14 +13,13 @@ body {
   margin: 20px;
   border-radius: 15px;
   padding: 5px;
+  flex: 20%;
+  flex-grow: 0;
 }
 
 #container {
+  flex-wrap: wrap;
   display: flex;
-}
-
-.column {
-  flex: 25%;
 }
 
 /* Navigation */

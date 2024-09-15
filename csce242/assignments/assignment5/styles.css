@@ -41,7 +41,6 @@ body {
   padding: 15px;
   margin: 15px;
   width: 30%;
-  background-color: #d0d4d5;
   border: 2px solid #2c89d6;
 }
 /* Box within the slider box */
@@ -49,6 +48,7 @@ body {
   width: 200px;
   height: 200px;
   position: relative;
+  background-color: #645686;
 }
 
 #countValue {
@@ -58,6 +58,15 @@ body {
   background-color: #b987ef;
   display: inline-block;
   border-radius: 12px;
+}
+.count {
+  background-color: rgb(230, 229, 229);
+}
+.random-image {
+  background-color: rgb(230, 229, 229);
+}
+.slider-move {
+  background-color: rgb(230, 229, 229);
 }
 
 #slider {
