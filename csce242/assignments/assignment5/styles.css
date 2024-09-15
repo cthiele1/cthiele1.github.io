@@ -1,0 +1,83 @@
+/* Main Header Colors */
+h1 {
+  color: #2c89d6;
+}
+
+h2 {
+  color: rgb(73, 70, 70);
+}
+
+h3 {
+  color: #5d39a0;
+}
+
+/* Body */
+body {
+  background-color: rgb(173, 183, 230);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Flex Box Containers*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1100px;
+  margin: 12px auto;
+}
+.container div img {
+  width: 200px;
+  height: 200px;
+}
+
+.container div {
+  padding: 15px;
+  margin: 15px;
+  width: 30%;
+  background-color: #d0d4d5;
+  border: 2px solid #2c89d6;
+}
+/* Box within the slider box */
+.slider-box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+#countValue {
+  padding: 45px;
+  font-size: 4rem;
+  color: white;
+  background-color: #b987ef;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+#slider {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+  color: #2c89d6;
+  margin-top: 25px;
+}
+
+/* For smaller screens*/
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .container div {
+    width: 100%;
+  }
+}

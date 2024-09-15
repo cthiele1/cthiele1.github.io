@@ -19,6 +19,10 @@ body {
   display: flex;
 }
 
+.column {
+  flex: 25%;
+}
+
 /* Navigation */
 
 a {
