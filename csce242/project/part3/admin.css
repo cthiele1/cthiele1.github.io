@@ -68,3 +68,12 @@ body {
   margin-top: 10px;
   font-size: 1;
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container div {
+    width: 100%;
+  }
+}

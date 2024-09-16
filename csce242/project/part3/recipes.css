@@ -90,3 +90,12 @@ body {
 #main-header {
   background: rgb(43, 141, 173);
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container div {
+    width: 100%;
+  }
+}

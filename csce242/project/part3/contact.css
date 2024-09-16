@@ -82,3 +82,12 @@ body {
   align-items: center;
   margin: 0 10px;
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container div {
+    width: 100%;
+  }
+}

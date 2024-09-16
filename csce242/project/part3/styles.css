@@ -145,8 +145,12 @@ body {
   color: white;
 }
 
-@media only screen and (min-width: 768px) {
-  .h-nav {
-    display: flex;
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container div {
+    width: 100%;
   }
 }
