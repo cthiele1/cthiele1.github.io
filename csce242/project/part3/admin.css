@@ -2,7 +2,7 @@
 /*Header Part that is Garnet */
 #bottomh-nav {
   padding: 8px;
-  background-color: #f0b088;
+  background-color: var(--accent-color);
   padding-left: 0;
 
   display: flex;
@@ -19,12 +19,12 @@
   display: flex;
   padding-left: 50px;
   font-size: large;
-  color: white;
+  color: var(--text-color);
 }
 /* Text in the Black Part of the Header */
 .htop-nav a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
   padding: 10px;
   display: block;
 }
@@ -42,10 +42,10 @@ body {
 /* Main Navagation*/
 .h-nav a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 #main-header {
-  background: rgb(43, 141, 173);
+  background: var(--primary-color);
 }
 .box {
   width: 700px;
@@ -53,15 +53,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #7f36b2;
-  color: white;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
   padding: 20px;
 }
 
 .container {
   gap: 210px;
   display: flex;
-  background-color: gray;
+  background-color: var(--accent-color);
 }
 .text-box {
   text-align: center;
@@ -76,4 +76,11 @@ body {
   .container div {
     width: 100%;
   }
+}
+
+:root {
+  --primary-color: rgb(43, 141, 173);
+  --secondary-color: #90464c;
+  --accent-color: #b58f92;
+  --text-color: white;
 }

@@ -1,13 +1,19 @@
 /* Structure */
+:root {
+  --primary-color: rgb(43, 141, 173);
+  --secondary-color: #90464c;
+  --accent-color: #b58f92;
+  --text-color: white;
+}
 
 #main-header {
-  background: rgb(43, 141, 173);
+  background: var(--primary-color);
 }
 
 /*First Header under the big picture */
 #sub-header {
   text-align: center;
-  color: white;
+  color: var(--text-color);
   position: relative;
 }
 #sub-header-text {
@@ -16,7 +22,7 @@
 }
 #sub-header-box {
   margin: 0;
-  background-color: #90464c;
+  background-color: var(--secondary-color);
   padding: 5px;
   display: inline-block;
   text-align: left;
@@ -24,8 +30,8 @@
 
 /*Sidebar */
 .right-side {
-  background-color: #b58f92;
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--text-color);
   padding: 20px;
   position: relative;
   overflow: hidden;
@@ -47,38 +53,38 @@
 .paying-for-school {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(229, 192, 143);
-  color: #1c58c7;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   line-height: 1;
 }
 .paying-for-school p {
-  color: black;
+  color: var(--accent-color);
 }
 
 .button2 {
   text-decoration: none;
   display: inline-block;
   width: fit-content;
-  background-color: #5397e5;
-  color: white;
+  background-color: var(--accent-color);
+  color: var(--text-color);
 
   padding: 10px;
-  border: 2px solid white;
+  border: 2px solid var(--text-color);
   font-size: 30px;
 }
 
 .img {
   margin: 4px;
   flex: 1;
-  background-color: rgb(98, 149, 152);
+  background-color: var(--secondary-color);
   text-align: center;
 }
 
 /* Take the Next Step */
 .take-step {
   display: flex;
-  color: #ffffff;
-  background-color: rgb(167, 198, 203);
+  color: var(--text-color);
+  background-color: var(--secondary-color);
 }
 .take-step img {
   margin-right: 15px;
@@ -91,7 +97,7 @@
 }
 
 .step-content p {
-  color: #ffffff;
+  color: var(--text-color);
   line-height: 1;
   font-size: larger;
   padding-top: 0;
@@ -102,7 +108,7 @@
 /*Header Part that is Garnet */
 #bottomh-nav {
   padding: 8px;
-  background-color: #f0b088;
+  background-color: var(--secondary-color);
   padding-left: 0;
 
   display: flex;
@@ -119,12 +125,12 @@
   display: flex;
   padding-left: 50px;
   font-size: large;
-  color: white;
+  color: var(--text-color);
 }
 /* Text in the Black Part of the Header */
 .htop-nav a {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
   padding: 10px;
   display: block;
 }
@@ -142,15 +148,5 @@ body {
 /* Main Navagation*/
 .h-nav a {
   text-decoration: none;
-  color: white;
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .container div {
-    width: 100%;
-  }
+  color: var(--text-color);
 }
