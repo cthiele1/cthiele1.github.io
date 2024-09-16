@@ -1,0 +1,75 @@
+/* HEADER */
+#bottomh-nav {
+  padding: 8px;
+  background-color: #f0b088;
+  padding-left: 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+#bottomh-nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+/* Famous Southern Cooking Recipes Section */
+#toph-nav {
+  display: flex;
+  padding-left: 50px;
+  font-size: large;
+  color: white;
+}
+/* Text in the Black Part of the Header */
+.htop-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+/* Typography */
+.bold {
+  font-weight: bold;
+  display: flex;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main Navagation*/
+.h-nav a {
+  text-decoration: none;
+  color: white;
+}
+#main-header {
+  background: rgb(43, 141, 173);
+}
+
+/* Main Content */
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  max-width: 2000px;
+  height: 400px;
+  width: 100%;
+}
+
+.box {
+  flex: 1;
+  margin: 10px;
+  background-color: #728172;
+  justify-content: center;
+  font-size: 20px;
+  height: 100%;
+  color: white;
+  display: flex;
+}
+
+.box h1 {
+  padding-right: 20px;
+  font-size: 30px;
+  padding-left: 20px;
+}
