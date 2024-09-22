@@ -1,8 +1,8 @@
 /* Structure */
 :root {
-  --primary-color: rgb(43, 141, 173);
-  --secondary-color: #90464c;
-  --accent-color: #b58f92;
+  --primary-color: rgb(157, 111, 65);
+  --secondary-color: #655331;
+  --accent-color: #a19983;
   --text-color: white;
 }
 
@@ -44,6 +44,7 @@
   position: relative;
   overflow: hidden;
   object-fit: cover;
+  background-color: var(--primary-color);
 }
 .explore-degree {
   align-items: stretch;
@@ -105,6 +106,7 @@
   font-size: larger;
   padding-top: 10px;
   padding-left: 10px;
+  padding-right: 20px;
 }
 
 /* Navigation */
