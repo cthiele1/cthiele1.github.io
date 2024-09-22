@@ -22,8 +22,9 @@ h2 {
 
 #menu-items {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
+  padding-top: 20px;
+  padding: 10px;
+  margin: 3px;
 }
 
 #menu-items li {
@@ -54,7 +55,7 @@ footer {
 
 #color-slider {
   background-color: #e7dede;
-  border: 2px solid #302e2e;
+  border: 3px solid #302e2e;
 }
 
 #slider-text {
@@ -63,7 +64,7 @@ footer {
 
 #picture-chooser {
   background-color: #e7dede;
-  border: 2px solid #302e2e;
+  border: 3px solid #302e2e;
 }
 
 button {
@@ -89,6 +90,12 @@ button {
     display: none;
   }
   #menu-items {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .exercises {
     display: none;
   }
 }
