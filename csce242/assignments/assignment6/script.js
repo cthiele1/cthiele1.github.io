@@ -29,43 +29,43 @@ document.addEventListener("DOMContentLoaded", () => {
       menuItems.style.display = "none";
       toggleArrow.textContent = "▼";
     }
-
-    //TOGGLE BUTTON STUFF//
   });
+  //Script for Color slider//
+
+  slider.addEventListener("input", (e) => {
+    const redValue = e.target.value;
+    document.body.style.backgroundColor = `rgb(${redValue}, 0, 0)`;
+    if (redValue < 70) {
+      sliderMessage.textContent = "Cold!!";
+    } else if (redValue < 150) {
+      sliderMessage.textContent = "Average Temp!!";
+    } else {
+      sliderMessage.textContent = "Hot!!";
+    }
+  });
+
+  //Script for Picture Chooser//
+  document.querySelectorAll("#picture-chooser button").forEach((button) => {
+    button.addEventListener("click", (e) => {
+      let size = "";
+      if (e.target.id === "small") {
+        size = "100";
+      } else if (e.target.id === "medium") {
+        size = "200";
+      } else if (e.target.id === "large") {
+        size = "500";
+      }
+      pictureDisplay.innerHTML = `<img src="https://picsum.photos/${size}" alt="Random Image with different sizes">`;
+    });
+  });
+
+  //TOGGLE BUTTON STUFF//
+
   const toggleNav = () => {
     document.getElementById("menu-items").classList.toggle("hidden");
 
     window.onload = () => {
       document.getElementById("toggle-arrow").onclick = toggleNav;
     };
-
-    //Script for Color slider//
-
-    slider.addEventListener("input", (e) => {
-      const redValue = e.target.value;
-      document.body.style.backgroundColor = `rgb(${redValue}, 0, 0)`;
-      if (redValue < 70) {
-        sliderMessage.textContent = "Cold!!";
-      } else if (redValue < 150) {
-        sliderMessage.textContent = "Average Temp!!";
-      } else {
-        sliderMessage.textContent = "Hot!!";
-      }
-    });
-
-    //Script for Picture Chooser//
-    document.querySelectorAll("#picture-chooser button").forEach((button) => {
-      button.addEventListener("click", (e) => {
-        let size = "";
-        if (e.target.id === "small") {
-          size = "100";
-        } else if (e.target.id === "medium") {
-          size = "200";
-        } else if (e.target.id === "large") {
-          size = "500";
-        }
-        pictureDisplay.innerHTML = `<img src="https://picsum.photos/${size}" alt="Random Image with different sizes">`;
-      });
-    });
   };
 });
