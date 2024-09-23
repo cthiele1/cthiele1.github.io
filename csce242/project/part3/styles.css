@@ -130,6 +130,7 @@
 
 /* Famous Southern Cooking Recipes Section */
 #toph-nav {
+  padding-top: 20px;
   padding-left: 50px;
   font-size: large;
   color: var(--text-color);
@@ -178,13 +179,17 @@ body {
 .sidebar-image {
   width: 100%; /* Full width */
   max-width: 100%; /* Max width for larger screens */
-  background-color: black;
+  background-color: var(--other-color);
   display: block;
 }
 
 .sidebar-image img {
   width: 100%; /* Make the image responsive */
   display: block;
+}
+
+.imgcolor {
+  background-color: var(--other-color);
 }
 
 /* Media query for smaller screens */

@@ -52,6 +52,7 @@ body {
 .content {
   background-color: var(--accent-color);
   padding: 20px; /* Add padding around the content */
+  padding-bottom: 200px;
 }
 
 .large-box {
@@ -65,13 +66,6 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
-}
-
-.image {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 575px;
-  padding-right: 20px;
 }
 
 .small-box {
