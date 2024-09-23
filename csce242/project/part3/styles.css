@@ -32,10 +32,10 @@
 .right-side {
   background-color: var(--accent-color);
   color: var(--text-color);
-  padding: 20px;
+  padding: 40px;
   position: relative;
   overflow: hidden;
-  flex: 1.05;
+  flex: 1.65;
 }
 .sidebar-image {
   width: 100%;
@@ -78,6 +78,7 @@
   flex: 1;
   background-color: var(--secondary-color);
   text-align: center;
+  padding-top: 40px;
 }
 
 /* Take the Next Step */
@@ -88,6 +89,8 @@
 }
 .take-step img {
   margin-right: 15px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 .take-step .content {
   display: flex;
@@ -100,7 +103,8 @@
   color: var(--text-color);
   line-height: 1;
   font-size: larger;
-  padding-top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 /* Navigation */
@@ -149,4 +153,12 @@ body {
 .h-nav a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+.title {
+  padding-left: 40px;
+}
+
+.title-text {
+  padding-left: 40px;
 }

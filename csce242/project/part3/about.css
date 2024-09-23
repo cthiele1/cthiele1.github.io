@@ -66,12 +66,19 @@ body {
   height: 100%;
   color: var(--text-color);
   display: flex;
+  padding-right: 20px;
+}
+
+.image {
+  padding-left: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .box h1 {
-  padding-right: 20px;
-  font-size: 30px;
-  padding-left: 20px;
+  padding-right: 50px;
+  font-size: 25px;
+  padding-left: 10px;
 }
 @media (max-width: 768px) {
   .container {
@@ -87,4 +94,5 @@ body {
   --secondary-color: #90464c;
   --accent-color: #b58f92;
   --text-color: white;
+  --background-color: #134451;
 }
