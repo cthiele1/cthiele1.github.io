@@ -4,7 +4,7 @@ body {
 }
 
 .column {
-  background: var(--accent-color);
+  background: var(--other-color);
   margin: 20px;
   border-radius: 15px;
   padding: 5px;
@@ -42,7 +42,6 @@ body {
 }
 
 /* HEADER */
-/*Header Part that is Garnet */
 #bottomh-nav {
   padding: 8px;
   background-color: var(--secondary-color);
@@ -105,4 +104,5 @@ body {
   --secondary-color: #655331;
   --accent-color: #a19983;
   --text-color: white;
+  --other-color: #f9a964;
 }

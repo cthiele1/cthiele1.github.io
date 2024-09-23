@@ -2,7 +2,7 @@
 /*Header Part that is Garnet */
 #bottomh-nav {
   padding: 8px;
-  background-color: var(--accent-color);
+  background-color: var(--secondary-color);
   padding-left: 0;
 
   display: flex;
@@ -53,15 +53,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--secondary-color);
+  background-color: var(--accent-color);
   color: var(--text-color);
   padding: 20px;
 }
 
 .container {
-  gap: 210px;
   display: flex;
-  background-color: var(--accent-color);
+  background-color: var(--other-color);
+  padding-left: 450px;
 }
 .text-box {
   text-align: center;
@@ -83,4 +83,5 @@ body {
   --secondary-color: #655331;
   --accent-color: #a19983;
   --text-color: white;
+  --other-color: #c07f46;
 }

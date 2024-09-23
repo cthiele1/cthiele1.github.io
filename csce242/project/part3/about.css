@@ -36,6 +36,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--other-color);
 }
 
 /* Main Navagation*/
@@ -55,6 +56,7 @@ body {
   max-width: 2000px;
   height: 400px;
   width: 100%;
+  background-color: var(--other-color);
 }
 
 .box {
@@ -73,6 +75,7 @@ body {
   padding-left: 500px;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: var(--other-color);
 }
 
 .box h1 {
@@ -94,4 +97,5 @@ body {
   --secondary-color: #655331;
   --accent-color: #a19983;
   --text-color: white;
+  --other-color: #c07f46;
 }
