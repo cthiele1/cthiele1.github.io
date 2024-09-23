@@ -4,6 +4,7 @@
   --secondary-color: #655331;
   --accent-color: #a19983;
   --text-color: white;
+  --other-color: #f9a964;
 }
 
 #main-header {
@@ -129,7 +130,6 @@
 
 /* Famous Southern Cooking Recipes Section */
 #toph-nav {
-  display: flex;
   padding-left: 50px;
   font-size: large;
   color: var(--text-color);
@@ -166,9 +166,30 @@ body {
   padding-left: 40px;
 }
 
-/* Larger Resolutions */
 @media (min-width: 900px) {
-  #sidebar-image {
+  #toph-nav ul,
+  .h-nav {
     display: flex;
+  }
+  #toph-nav li {
+    flex: 1;
+  }
+}
+.sidebar-image {
+  width: 100%; /* Full width */
+  max-width: 100%; /* Max width for larger screens */
+  background-color: black;
+  display: block;
+}
+
+.sidebar-image img {
+  width: 100%; /* Make the image responsive */
+  display: block;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .sidebar-image {
+    max-width: 100px; /* Keep it the same size on smaller screens */
   }
 }
