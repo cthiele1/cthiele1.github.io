@@ -3,19 +3,32 @@ document.addEventListener("DOMContentLoaded", () => {
   const menuItems = document.getElementById("menu-items");
   const exercise1 = document.getElementById("exercise1");
   const exercise2 = document.getElementById("exercise2");
+  const exercise1s = document.getElementById("exercise1s");
+  const exercise2s = document.getElementById("exercise2s");
   const colorSliderSection = document.getElementById("color-slider");
   const slider = document.getElementById("colorSlider");
   const sliderMessage = document.getElementById("slider-text");
   const pictureChooserSection = document.getElementById("picture-chooser");
   const pictureDisplay = document.getElementById("picture");
 
-  //Shows all of Exercise 1, and Shows all of Exercise 2//
+  //Shows all of Exercise 1, and Shows all of Exercise 2 for Larger Resolutions//
   exercise1.addEventListener("click", () => {
     colorSliderSection.style.display = "block";
     pictureChooserSection.style.display = "none";
   });
 
   exercise2.addEventListener("click", () => {
+    pictureChooserSection.style.display = "block";
+    colorSliderSection.style.display = "none";
+  });
+
+  //Shows all of Exercise 1, and Shows all of Exercise 2 for Smaller Resolutions//
+  exercise1s.addEventListener("click", () => {
+    colorSliderSection.style.display = "block";
+    pictureChooserSection.style.display = "none";
+  });
+
+  exercise2s.addEventListener("click", () => {
     pictureChooserSection.style.display = "block";
     colorSliderSection.style.display = "none";
   });
