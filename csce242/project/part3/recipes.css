@@ -106,3 +106,72 @@ body {
   --text-color: white;
   --other-color: #f9a964;
 }
+#container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+}
+
+.column {
+  width: 25%; 
+  padding: 15px; 
+  box-sizing: border-box; 
+  text-align: center; /
+}
+
+.column img {
+  display: block; 
+  margin: 0 auto; 
+}
+
+h3 {
+  margin: 10px 0; 
+}
+
+/* Hamburger menu */
+#hamburger-menu div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+#bottomh-nav {
+  display: none;
+}
+#hamburger-menu {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .sidebar-image {
+    max-width: 100px; /* Keep it the same size on smaller screens */
+  }
+  .show {
+    display: flex !important;
+  }
+  #bottomh-nav ul {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #bottomh-nav li {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+}
+
+@media (min-width: 600px) {
+  #hamburger-menu {
+    display: none;
+  }
+  #bottomh-nav {
+    display: flex;
+  }
+  #bottomh-nav li {
+    flex: 1;
+  }
+}

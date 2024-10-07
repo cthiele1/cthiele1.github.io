@@ -31,7 +31,7 @@
 
 /*Sidebar */
 .right-side {
-  background-color: var(--accent-color);
+  background-color: var(--primary-color);
   color: var(--text-color);
   padding: 40px;
   position: relative;
@@ -56,12 +56,12 @@
 .paying-for-school {
   display: flex;
   flex-wrap: wrap;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: var(--accent-color);
+  color: var(--text-color);
   line-height: 1;
 }
 .paying-for-school p {
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 
 .button2 {
@@ -141,10 +141,6 @@
   color: var(--text-color);
   padding: 10px;
   display: block;
-}
-
-/*Hamburger Menu" */
-.hamburger-menu {
 }
 
 /* Typography */
@@ -229,7 +225,6 @@ body {
     width: 100%;
     text-align: center;
     padding: 15px 0;
-    border-bottom: 2px solid black;
   }
 }
 
