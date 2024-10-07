@@ -1,11 +1,12 @@
 class Dog {
-  constructor(name, weight, pros, cons, diet, funfact, image) {
+  constructor(name, weight, pros, cons, diet, funfact, rating, image) {
     this.name = name;
     this.weight = weight;
     this.pros = pros;
     this.cons = cons;
     this.diet = diet;
     this.funfact = funfact;
+    this.rating = rating;
     this.image = image;
   }
 
@@ -30,6 +31,8 @@ class Dog {
                 <p>Cons: ${this.cons}</p>
                 <p>Diet: ${this.diet}</p>
                 <p>Fun Fact: ${this.funfact}</p>
+                <p>Rating: ${this.rating}</p>
+
             </div>
         `;
   }
@@ -43,6 +46,7 @@ const types = [
     "Shorter lifespan (often 7-10 years), prone to health issues (like cancer and hip dysplasia), needs regular grooming.",
     "High-quality, balanced diet, sometimes requires supplements for joint health.",
     "Bernese Mountain Dogs were originally used as farm dogs in the Swiss Alps, known for their strength and versatility.",
+    "Awesome!!",
     "images/bernese.jpg"
   ),
   new Dog(
@@ -52,6 +56,7 @@ const types = [
     "Prone to certain health issues (like hip dysplasia and cancer), high grooming needs, requires regular exercise.",
     "High-quality dog food, often needs a diet rich in omega fatty acids for coat health.",
     "Golden Retrievers were originally bred in Scotland in the mid-19th century for retrieving game from both water and land.",
+    "Awesome!!",
     "images/golden.jpg"
   ),
   new Dog(
@@ -61,6 +66,7 @@ const types = [
     "rone to health issues (like hip dysplasia), can be stubborn, needs space.",
     "High-quality dog food, careful with portions due to risk of obesity; some may require special diets for joint health.",
     "Mastiffs are one of the oldest dog breeds, with origins dating back over 5,000 years!",
+    "Awesome!!",
     "images/mastiff.jpg"
   ),
   new Dog(
@@ -70,6 +76,7 @@ const types = [
     "Prone to health issues (like hip dysplasia and heart problems), can drool a lot, requires space.",
     "High-quality dog food, careful with portions due to obesity risk; may require specialized diets.",
     "Saint Bernards were originally bred by monks in the Swiss Alps for rescue missions, and they’re famous for their life-saving abilities.",
+    "Awesome!!",
     "images/saintbernard.jpg"
   ),
 ];
