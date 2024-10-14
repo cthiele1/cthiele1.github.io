@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <html>
-    <head>
-      <link rel="stylesheet" href="recipes.css" />
-    </head>
-    <body>
-      <header id="main-header">
-        <nav id="toph-nav" class="htop-nav">
-          <h1>Famous Southern Cooking Recipes</h1>
-        </nav>
-        <div id="hamburger-menu">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+  <head>
+    <title>Cook Display</title>
+    <link rel="stylesheet" href="cooks.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <nav id="toph-nav" class="htop-nav">
+        <h1>Famous Southern Cooking Recipes</h1>
+      </nav>
+      <div id="hamburger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <nav id="bottomh-nav" class="h-nav">
+        <ul class="bold">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="cooks.html">Popular Cooks</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="admin.html">Admin Page</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <nav id="bottomh-nav" class="h-nav">
-          <ul class="bold">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
-            <li><a href="cooks.html">Popular Cooks</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="admin.html">Admin Page</a></li>
-          </ul>
-        </nav>
-      </header>
-    </body>
-    <body>
     <main>
-      <h1>Cooks</h1>
-      <div id="shoes-section"></div>
-    </main>    
-    
-    <script src = "cooks.js"></script>
-    </body>
-    </html>
-  </html>
+      <div id="main-heading">
+        <h1>Popular Cooks</h1>
+        <h2>
+          These are all very popular cooks who have contributed to this recipe
+          website.
+        </h2>
+        <br />
+        <h2>
+          The following information is displayed under each of their names:
+        </h2>
+        <br />
+        <strong>
+          <p>Hometown</p>
+          <p>Favorite Recipe</p>
+          <p>Rating</p>
+          <p>Service Organization</p>
+        </strong>
+      </div>
+      <br />
+      <div class="cook-container" id="cooks-section"></div>
+    </main>
+
+    <script src="cooks.js"></script>
+  </body>
 </html>
