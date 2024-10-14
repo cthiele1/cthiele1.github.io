@@ -99,6 +99,24 @@ body {
   --text-color: white;
   --other-color: #c07f46;
 }
+#bottomh-nav {
+  padding: 8px;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+#bottomh-nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+#bottomh-nav li {
+  list-style: none;
+  margin-right: 50px; /* Spacing between items */
+}
 
 /* Hamburger menu */
 #hamburger-menu div {
