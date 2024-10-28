@@ -13,6 +13,9 @@
   list-style: none;
   margin-right: 50px;
 }
+body {
+  background-color: var(--accent-color);
+}
 
 /* Famous Southern Cooking Recipes Section */
 #toph-nav {
@@ -169,7 +172,7 @@ textarea {
 
 button {
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color: var(--secondary-color);
   color: white;
   border: none;
   border-radius: 5px;
