@@ -29,9 +29,34 @@
       <div class="container">
         <div class="box">
             <h1 class="header">Admin Login</h1>
-            <p class="text-box">This is the admin page for admin users to submit the form to add differnt recipes.</p>
+            <p class="text-box">This is the admin page for admin users to submit the form to add different recipes.</p>
+    
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="8be17655-ed74-499a-8721-853078ff57ac">
+    
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" rows="4" placeholder="Enter your message here..." required></textarea>
+                </div>
+    
+                <button type="submit">Submit Form</button>
+            </form>
         </div>
     </div>
+    
+    
+
+    
       </div>
       <script src = "script.js"></script>
     </body>
